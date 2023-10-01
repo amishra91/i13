@@ -1,5 +1,7 @@
 # AI-Generated Value Proposition Canvas
 
+Live Demo: [Demo](https://i13.vercel.app/).
+
 This GitHub repository hosts a web application that allows users to input their products and services, generating a value proposition canvas using advanced AI.
 
 ## Features
