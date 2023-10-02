@@ -26,7 +26,7 @@ const ValuePropositions = ({ data }: Props) => {
   const allPainRelievers = [].concat(...painRelievers);
 
   return (
-    <div className="p-4 w-[50%] min-h-[31.25rem] max-w-[31.25rem] propContainer-value propContainer relative bg-[#edf2f6] rounded-md">
+    <div className="p-4 w-[50%] min-h-[400px] max-w-[400px] propContainer-value propContainer relative bg-[#edf2f6] rounded-md">
       <ProductAndServices />
       <GainCreators gainCreators={allGainCreators} />
       <PainRelievers painRelievers={allPainRelievers} />

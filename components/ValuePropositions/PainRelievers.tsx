@@ -15,15 +15,15 @@ const PainRelievers = ({ painRelievers }: Props) => {
   return (
     <>
       <div
-        className="absolute top-[60%] right-[15%]"
+        className="absolute bottom-[20%] right-[15%]"
         style={{
-          transform: 'translate(-60%, -15%)',
+          transform: 'translate(-20%, 0)',
         }}
       >
         <Image
           src="/assets/pain-reliever.svg"
-          width={80}
-          height={80}
+          width={60}
+          height={60}
           alt="products"
         />
       </div>

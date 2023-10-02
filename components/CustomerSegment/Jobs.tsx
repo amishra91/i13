@@ -17,13 +17,13 @@ const Gains = ({ jobs }: Props) => {
       <div
         className="absolute top-[50%] right-[10%]"
         style={{
-          transform: 'translate(-50%, -10%)',
+          transform: 'translate(-50%, -50%)',
         }}
       >
         <Image
           src="/assets/customer-jobs.svg"
-          width={80}
-          height={80}
+          width={50}
+          height={50}
           alt="products"
         />
       </div>

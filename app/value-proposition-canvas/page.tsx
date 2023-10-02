@@ -77,10 +77,10 @@ const Canvas = () => {
             </>
           ) : (
             <div className="pl-72 pb-10 md:flex flex-col justify-center items-center w-full h-full gap-5 hidden">
-              <h1 className="w-full mb-2">
+              <h1 className="w-full mb-2 text-center">
                 Oops! There was an error. Please try reloading the page.
               </h1>
-              <p className="w-full">
+              <p className="w-full text-center">
                 If you forgot to fill the form to generate the canvas, please{' '}
                 <Link href="/">
                   <span className="text-[#37a169] underline font-bold">

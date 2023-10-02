@@ -29,7 +29,7 @@ const CustomerSegment = ({ data }: Props) => {
   const allPains = [].concat(...customerPains);
   const allJobs = [].concat(...customerJobs);
   return (
-    <div className="p-10 w-[50%] min-h-[500px] max-w-[500px] propContainer-user propContainer relative bg-[#edf2f6] rounded">
+    <div className="p-10 w-[50%] min-h-[350px] max-w-[350px] propContainer-user propContainer relative bg-[#edf2f6] rounded">
       <Gains gains={allGains} />
       <Pains pains={allPains} />
       <Jobs jobs={allJobs} />

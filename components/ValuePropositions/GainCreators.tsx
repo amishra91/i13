@@ -15,15 +15,15 @@ const GainCreators = ({ gainCreators }: Props) => {
   return (
     <>
       <div
-        className="absolute top-[10%] right-[15%]"
+        className="absolute top-[10%] right-[5%]"
         style={{
           transform: 'translate(-60%, -15%)',
         }}
       >
         <Image
           src="/assets/gain-creators.svg"
-          width={90}
-          height={90}
+          width={80}
+          height={80}
           alt="products"
         />
       </div>

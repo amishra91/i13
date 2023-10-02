@@ -16,13 +16,13 @@ const ProductAndServices = () => {
       <div
         className="absolute top-[50%] left-[15%]"
         style={{
-          transform: 'translate(-50%, -15%)',
+          transform: 'translate(-15%, -50%)',
         }}
       >
         <Image
           src="/assets/product.svg"
-          width={70}
-          height={70}
+          width={50}
+          height={50}
           alt="products"
         />
       </div>
