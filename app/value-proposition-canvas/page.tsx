@@ -48,7 +48,7 @@ const Canvas = () => {
     if (!data.length) {
       generateCanvas();
     }
-  }, []);
+  }, [data]);
   return (
     <>
       {loading ? (
