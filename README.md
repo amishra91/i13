@@ -14,6 +14,7 @@ This GitHub repository hosts a web application that allows users to input their 
     - Run command `npm install` to install the required packages
     - Once the insallation is done, run the command `npm run dev`
     - It should open the browser automatically and run the app, if doesn't run the app automatically, Go to localhost:3000 in browser.
+    - Create an .env file and add your OpenAI's API key in `NEXT_APP_OPENAI_API_KEY` variable
 
 ## Technologies Utilized
 
